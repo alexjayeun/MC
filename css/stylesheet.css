@@ -49,11 +49,11 @@ h3 {
 }
 h4 {
   font: 100% "Trebuchet MS", Helvetica, sans-serif;
-  font-size: 90%;
-  font-color: white;
+  font-size: 100%;
 }
 p {
 font: 80% "Trebuchet MS", Helvetica, sans-serif;
+font-size: 0.8em;
 line-height: 1.5;
 }
 
@@ -66,7 +66,7 @@ div {
 .button {
   border: 3px solid white;
   border-radius: 5px;
-  background-color: #a4cdc9;
+  background-color: #7ac70c;
   height: 30px;
   width: 120px;
   line-height: 1.5;
@@ -74,23 +74,79 @@ div {
   display: inline-block;
   vertical-align: center;
   padding: 20px 50px;
-  overflow: auto;
+  /*overflow: auto;*/
   font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 1em;
   color: white;
+  text-align: center;
 }
 .button:hover {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
-a:link {color: #0d8279; 
+a:link {color: #000000; 
   background-color: transparent; 
   text-decoration: none;}
-a:visited {color: grey; 
+a:visited {color: #000000; 
   background-color: transparent; 
   text-decoration: none;}
 a:hover {color: #fffefd; 
   background-color: transparent; 
   text-decoration: none;}
+
+.dropbtn {
+    border: 3px solid white;
+    border-radius: 5px;
+    background-color: #7ac70c;
+    height: 80px;
+    width: 225px;
+    line-height: 1.5;
+    margin: 5px;
+    display: inline-block;
+    vertical-align: center;
+    padding: 20px 50px;
+    overflow: auto;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 1em;
+    color: black;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    vertical-align: center;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    vertical-align: center;
+    margin-left: 40px;
+    margin-top: -5px;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+
 
 
 /*
